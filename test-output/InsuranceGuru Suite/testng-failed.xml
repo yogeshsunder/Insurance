@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [InsuranceGuru Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="VerifyAgentCreatePolicy(failed)">
+    <classes>
+      <class name="com.TestCases.VerifyAgentCreatePolicy">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyCreatePolicy"/>
+        </methods>
+      </class> <!-- com.TestCases.VerifyAgentCreatePolicy -->
+    </classes>
+  </test> <!-- VerifyAgentCreatePolicy(failed) -->
+</suite> <!-- Failed suite [InsuranceGuru Suite] -->

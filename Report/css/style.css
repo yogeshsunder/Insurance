@@ -1,0 +1,92 @@
+.section-main iframe {
+    height: 100vh;
+}
+
+.url-target {
+    height: 100%;
+    width: 100%;
+}
+
+.left-panel {
+    padding: 25px;
+    background-color: #29323c;
+    overflow: auto;
+    height: 100%;
+}
+
+.site--logo {
+    font-size: 36px;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+
+.links {
+    list-style: none;
+    padding: 30px 0 0 0;
+}
+
+.links > li {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.links > li > a {
+    display: block;
+    padding: 10px 0px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #29323c;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+}
+
+.dropdown:after {
+    content: "";
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 12px;
+    height: 2px;
+    background-color: #fff;
+}
+
+
+
+.dropdown:before {
+    content: "";
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 2px;
+    height: 12px;
+    background-color: #fff;
+}
+
+.dropdown.open:before {
+    display: none;
+}
+
+.dropdown-links:not(.visible) {
+    display: none;
+}
+
+.dropdown-links {
+    padding: 0 0 0 20px;
+    color: #fff;
+}
+
+.dropdown-links li a {
+    display: block;
+    padding: 5px 0px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #29323c;
+    color: #fff;
+    text-decoration: none;
+}
